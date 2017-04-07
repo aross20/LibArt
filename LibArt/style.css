@@ -1,0 +1,126 @@
+@charset "utf-8";
+body {
+	background-color: #860038;
+}
+
+body {
+	text-align:center;
+
+}
+
+* {
+  font-family: 'Droid Sans', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+	font-size: 40px;
+	letter-spacing: 2px;
+	line-height: 220%;
+}
+
+
+h2 {
+	font-size: 40px;
+	letter-spacing: 2px;
+	line-height: 220%;
+}
+
+
+h3 {
+	font-size: 40px;
+	letter-spacing: 2px;
+	line-height: 220%;
+}
+
+
+h4 {
+	font-size: 40px;
+	letter-spacing: 2px;
+	line-height: 220%;
+}
+
+p {
+	font-size: 30px;
+	letter-spacing: 2px;
+}
+
+.nav {
+  background: #cfcfcf;
+  height: 50px;
+  line-height: 50px;
+  margin: 20px;
+  border-radius: 5px;
+}
+
+.nav > ul {
+  padding: 0 10px;
+  list-style-type: none;
+}
+
+.nav > ul > li {
+  float: left;
+}
+
+.nav > ul > li > a {
+  font-weight: bold;
+  color: #222222;
+  padding: 0 20px;
+  display: block;
+  text-decoration: none;
+}
+
+.nav > .active-link {
+  background: #efefef;
+  height: 50px;
+  padding: 5px 0;
+  margin-top: -5px;
+  position: absolute;
+  opacity: 0.6;
+  border-radius: 3px;
+  transition: left 0.5s ease, width 0.5s ease;
+}
+#kaneki {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  
+}
+
+#gallery {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#gallery li {
+  float: left;
+  width: 45%;
+  margin: 2.5%;
+  background-color: #f5f5f5;
+  color: #bdc3c7;
+}
+
+#gallery li a p {
+  margin: 0;
+  padding: 5%;
+  font-size: 0.75em;
+  color: #000;
+}
+
+footer {
+  font-size: 1em;
+  text-align: center;
+  clear: both;
+  padding-top: 50px;
+  color: #ccc;
+}
